@@ -55,7 +55,7 @@ def draw_cat_plot():
     )
 
     # 8 Get the figure for the output and store it in the fig variable
-    fig = cat_plot.fig
+    fig = cat_plot.figure
 
     # 9
     fig.savefig('catplot.png')
